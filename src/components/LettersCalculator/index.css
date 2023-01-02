@@ -1,0 +1,104 @@
+app-container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+.image-container {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .image-container {
+    order: 1;
+  }
+}
+.calculator-image {
+  height: 300px;
+  width: 400px;
+}
+
+@media screen and (min-width: 768px) {
+  .calculator-image {
+    height: 600px;
+    width: 700px;
+  }
+}
+
+.heading-search-input-container {
+  width: 80%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 44px;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 50px;
+    text-align: left;
+  }
+}
+.search-and-name-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.labelName {
+  font-family: 'roboto';
+  color: #ffffff;
+  font-size: 14px;
+  margin: 6px;
+}
+
+.search-input {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 17px;
+  width: 500px;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.counter-container {
+  background-color: #ffffff;
+  width: 250px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-top: 18px;
+}
+
+.no-of-letters {
+  color: #1d976c;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 600;
+}
